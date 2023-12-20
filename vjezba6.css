@@ -85,4 +85,97 @@ audio {
     height: 150px;
 }
 
+h1 {
+    font-size: 25px;
+    color: #cc7dcb;
+    border: 2px white dotted;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 70px;
+    border: 2px dashed #cc7dcb;
+    width: 340px;
 
+}
+
+.frog {
+    height: 400px;
+    width: 400px;
+    background-image: url('frog.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.frog:hover {
+    height: 400px;
+    width: 400px;
+    background-image: url('kitty.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px white dotted;
+}
+
+.duck {
+    height: 400px;
+    width: 400px;
+    background-image: url('duck wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2225px;
+    margin-left: 404px;
+}
+
+.duck:active {
+    height: 400px;
+    width: 400px;
+    background-image: url('ghosts.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px white dotted;
+
+}
+
+.souls {
+    height: 400px;
+    width: 400px;
+    background-image: url('two_souls.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2225px;
+    margin-left: 808px;
+}
+
+.souls:hover {
+    height: 400px;
+    width: 400px;
+    background-image: url('moon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px white dotted;
+    transition: 3s ease-out;
+    -webkit-transition: 3s ease-out;
+}
+
+.fairy {
+    height: 600px;
+    width: 400px;
+    background-image: url('fairy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 2629px;
+}
+
+.fairy:active {
+    height: 600px;
+    width: 400px;
+    background-image: url('fairy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px white dotted;
+    position: absolute;
+    top: 2529px;
+    margin-left: 100px;
+    transform: rotate(-90deg);
+}
